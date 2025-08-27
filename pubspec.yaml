@@ -1,0 +1,42 @@
+name: justinjob
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.8
+  http: ^1.2.0
+  flutter_rating_bar: ^4.0.0
+  shared_preferences: ^2.0.13
+  provider: ^6.1.2
+  dropdown_search: ^5.0.2
+  intl: ^0.18.0 
+  fluttertoast: ^8.2.8
+  url_launcher: ^6.1.10
+  flutter_animate: ^4.5.2
+  flutter_vector_icons: ^2.0.0
+  liquid_pull_to_refresh: ^3.0.1
+  flutter_launcher_icons: ^0.14.3
+  file_picker: ^6.1.1
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  # Optional: Different icons for Android/iOS
+  # android: "assets/icon/android_icon.png"
+  # ios: "assets/icon/ios_icon.png"
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
